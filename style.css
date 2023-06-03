@@ -92,6 +92,8 @@ button{
     justify-content: center;
         align-items: center;
 }
+
+/* making the website responsive */
 @media (max-width: 720px) {
     .sub{
         display: flex;
