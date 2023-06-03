@@ -19,7 +19,7 @@ body{
 }
 #output{
     min-width:60vw;
-    width:60vw;
+    width:65vw;
     margin:2rem auto;
     background:linear-gradient(90deg,#000428,#004e92);
     opacity:1;
@@ -98,5 +98,11 @@ button{
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+    #labelPad, input{
+        width: 45%;
+    }
+    button{
+        width: 30%;
     }
   }
