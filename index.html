@@ -10,32 +10,38 @@
 </head>
 
 <body>
+
     <header>
         <h1>CGPA Calculator for Sem 1 P Cycle</h1>
     </header>
+
     <div id="form">
+
         <h1>Enter Your Marks Here</h1>
-        <p>
-        <div id="labelPad">
 
-            <label for="mathematics">Mathematics:</label>
-        </div>
-        <input type="number" name="mathematics" id="i-mathematics" required min="0" max="50"
-            placeholder="internal marks">
-        <input type="number" name="mathematics" id="s-mathematics" required min="0" max="100"
-            placeholder="expected sem marks">
-        </p>
-        <p>
-        <div id="labelPad">
+        <div class="sub">
+            <div id="labelPad">
 
-            <label for="electrical-science">Electrical-Science:</label>
+                <label for="mathematics">Mathematics:</label>
+            </div>
+            <input type="number" name="mathematics" id="i-mathematics" required min="0" max="50"
+                placeholder="internal marks">
+            <input type="number" name="mathematics" id="s-mathematics" required min="0" max="100"
+                placeholder="expected sem marks">
         </div>
-        <input type="number" name="electrical-science" id="i-electrical-science" required min="0" max="50"
-            placeholder="internal marks">
-        <input type="number" name="electrical-science" id="s-electrical-science" required min="0" max="100"
-            placeholder="expected sem marks">
-        </p>
-        <p>
+
+        <div class="sub">
+            <div id="labelPad">
+
+                <label for="electrical-science">Electrical-Science:</label>
+            </div>
+            <input type="number" name="electrical-science" id="i-electrical-science" required min="0" max="50"
+                placeholder="internal marks">
+            <input type="number" name="electrical-science" id="s-electrical-science" required min="0" max="100"
+                placeholder="expected sem marks">
+        </div>
+
+        <div class="sub">
             <div id="labelPad">
 
                 <label for="physics">Physics:</label>
@@ -43,75 +49,83 @@
             <input type="number" name="physics" id="i-physics" required min="0" max="50" placeholder="internal marks">
             <input type="number" name="physics" id="s-physics" required min="0" max="100"
                 placeholder="expected sem marks">
-        </p>
-        <p>
-            <div id="labelPad">
-            <label for="mechanics">Mechanics:</label>
         </div>
+
+        <div class="sub">
+            <div id="labelPad">
+                <label for="mechanics">Mechanics:</label>
+            </div>
             <input type="number" name="mechanics" id="i-mechanics" required min="0" max="50"
                 placeholder="internal marks">
             <input type="number" name="mechanics" id="s-mechanics" required min="0" max="100"
                 placeholder="expected sem marks">
-        </p>
-        <p>
+        </div>
+
+        <div class="sub">
             <div id="labelPad">
-            <label for="egd">EGD:</label>
+                <label for="egd">EGD:</label>
             </div>
             <input type="number" name="egd" id="i-egd" required min="0" max="50" placeholder="internal marks">
             <input type="number" name="egd" id="s-egd" required min="0" max="100" placeholder="expected sem marks">
-        </p>
-        <p>
+        </div>
+
+        <div class="sub">
             <div id="labelPad">
-            <label for="electrical-laboratory">Electrical-Laboratory:</label>
+                <label for="electrical-laboratory">Electrical-Laboratory:</label>
             </div>
             <input type="number" name="electrical-laboratory" id="i-electrical-laboratory" required min="0" max="50"
                 placeholder="internal marks">
             <input type="number" name="electrical-laboratory" id="s-electrical-laboratory" required min="0" max="100"
                 placeholder="expected sem marks">
-        </p>
-        <p>
+        </div>
+
+        <div class="sub">
             <div id="labelPad">
-            <label for="physics-laboratory">Physics-Laboratory:</label>
+                <label for="physics-laboratory">Physics-Laboratory:</label>
             </div>
             <input type="number" name="physics-laboratory" id="i-physics-laboratory" required min="0" max="50"
                 placeholder="internal marks">
             <input type="number" name="physics-laboratory" id="s-physics-laboratory" required min="0" max="100"
                 placeholder="expected sem marks">
-        </p>
-        <p>
+        </div>
+
+        <div class="sub">
             <div id="labelPad">
-            <label for="english">English:</label>
+                <label for="english">English:</label>
             </div>
             <input type="number" name="english" id="i-english" required min="0" max="50" placeholder="internal marks">
             <input type="number" name="english" id="s-english" required min="0" max="100"
                 placeholder="expected sem marks">
-        </p>
-        <p>
+        </div>
+
+        <div class="sub">
             <div id="labelPad">
-            <label for="media-presentation">Media-Presentation:</label>
+                <label for="media-presentation">Media-Presentation:</label>
             </div>
             <input type="number" name="media-presentation" id="i-media-presentation" required min="0" max="50"
                 placeholder="internal marks">
             <input type="number" name="media-presentation" id="s-media-presentation" required min="0" max="100"
                 placeholder="expected sem marks">
-        </p>
+        </div>
+
         <p>
             <button type="button" id="btn">Calculate</button>
         </p>
-        <p >
+
+        <p>
             Internal marks out of 50. <br>
             Semister marks out of 100.
         </p>
         </form>
-        
+
     </div>
-    <div id="output" >
+    <div id="output">
         <h1>Your CGPA IS : </h1>
         <h1 id="cgpa"></h1>
     </div>
     <div id="foot">
         <p>
-            made by: maxus_red and naren_red
+            made by: maxus_red & naren_red
         </p>
     </div>
     <script src="index.js"></script>

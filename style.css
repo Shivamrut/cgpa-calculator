@@ -9,7 +9,7 @@ body{
 #form{
     /* min-height:80vh; */
     min-width:60vw;
-    width:80vw;
+    width:65vw;
     margin:2rem auto;
     background:linear-gradient(90deg,#000428,#004e92);
     opacity:1;
@@ -30,6 +30,7 @@ body{
 #foot{
     min-width:60vw;
     width:100vw;
+    padding: 1rem;
     /* margin:2rem auto; */
     background:linear-gradient(90deg,#000428,#004e92);
     opacity:1;
@@ -53,9 +54,9 @@ label,p{
 }
 input{
     display:inline-block;
-    width:25%;
+    width:15%;
     background:whitesmoke;
-    padding:0.7rem;
+    padding:0.8rem;
     margin:0.25rem;
 }
 header{
@@ -69,9 +70,9 @@ header{
 }
 button{
     display:block;
-    width:30%;
+    width:20%;
     margin:1rem auto;
-    padding:0.25rem;
+    padding:0.85rem;
     color:black;
     background:linear-gradient(90deg,#727a9a,#d8dbe9);
     border:2px solid white;
@@ -85,3 +86,17 @@ button{
     padding: 20px;
     text-align: left;
 }
+.sub{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+        align-items: center;
+}
+@media (max-width: 720px) {
+    .sub{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+  }

@@ -120,7 +120,7 @@ const smediaPresentationVal = parseInt(smediaPresentation.value);
     sum += threeCredit(iegdVal,segdVal);
     sum += threeCredit(imathsVal, smathsVal);
     console.log(sum);
-    document.getElementById('output').style.display = 'block';
+    // document.getElementById('output').style.display = 'block';
     const cgpa = document.getElementById('cgpa');
     cgpa.innerHTML = `${sum/200}`;
 
