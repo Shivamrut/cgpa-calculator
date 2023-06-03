@@ -8,67 +8,78 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <nav>
+    <header>
       <h1>CGPA Calculator for Sem 1 P Cycle</h1>
-    </nav>
-    <div id="form">
-        <div id="inputs">
-            <div class="subjects">
-                <label for="maths">Maths: </label>
-                <input type="text"  id="imaths" placeholder="internals">
-                <input type="text" id="smaths"  placeholder="semister">
-
-            </div>
-            <div class="subjects">
-                <label for="physics">Physics: </label>
-                <input type="text"  id="iphysics" placeholder="internals">
-                <input type="text" id="sphysics"  placeholder="semister">
-
-            </div>
-            <div class="subjects">
-                <label for="maths">Maths: </label>
-                <input type="text"  id="imaths" placeholder="internals">
-                <input type="text" id="smaths"  placeholder="semister">
-
-            </div>
-            <div class="subjects">
-                <label for="maths">Maths: </label>
-                <input type="text"  id="imaths" placeholder="internals">
-                <input type="text" id="smaths"  placeholder="semister">
-
-            </div>
-            <div class="subjects">
-                <label for="maths">Maths: </label>
-                <input type="text"  id="imaths" placeholder="internals">
-                <input type="text" id="smaths"  placeholder="semister">
-
-            </div>
-            <div class="subjects">
-                <label for="maths">Maths: </label>
-                <input type="text"  id="imaths" placeholder="internals">
-                <input type="text" id="smaths"  placeholder="semister">
-
-            </div>
-            <div class="subjects">
-                <label for="maths">Maths: </label>
-                <input type="text"  id="imaths" placeholder="internals">
-                <input type="text" id="smaths"  placeholder="semister">
-
-            </div>
-            <div class="subjects">
-                <label for="maths">Maths: </label>
-                <input type="text"  id="imaths" placeholder="internals">
-                <input type="text" id="smaths"  placeholder="semister">
-
-            </div>
-            <div class="subjects">
-                <label for="maths">Maths: </label>
-                <input type="text"  id="imaths" placeholder="internals">
-                <input type="text" id="smaths"  placeholder="semister">
-
-            </div>
-            <button>Submit</button>
-        </div>
+    </header>
+    <form action="">
+        <h2>Enter Your Marks Here</h2>
+        <p>
+            <label for="mathematics">Mathematics:</label>
+            <input type="number" name="mathematics" id="i-mathematics" required
+            min="0" max="50" placeholder="internal marks">
+            <input type="number" name="mathematics" id="s-mathematics" required
+            min="0" max="100" placeholder="expected sem marks">
+        </p>
+        <p>
+            <label for="electrical-science">Electrical-Science:</label>
+            <input type="number" name="electrical-science" id="i-electrical-science" required
+            min="0" max="50" placeholder="internal marks">
+            <input type="number" name="electrical-science" id="s-electrical-science" required
+            min="0" max="100" placeholder="expected sem marks">
+        </p>
+        <p>
+            <label for="physics">Physics:</label>
+            <input type="number" name="physics" id="i-physics" required
+            min="0" max="50" placeholder="internal marks">
+            <input type="number" name="physics" id="s-physics" required
+            min="0" max="100" placeholder="expected sem marks">
+        </p>
+        <p>
+            <label for="mechanics">Mechanics:</label>
+            <input type="number" name="mechanics" id="i-mechanics" required
+            min="0" max="50" placeholder="internal marks">
+            <input type="number" name="mechanics" id="s-mechanics" required
+            min="0" max="100" placeholder="expected sem marks">
+        </p>
+        <p>
+            <label for="egd">EGD:</label>
+            <input type="number" name="egd" id="i-egd" required
+            min="0" max="50" placeholder="internal marks">
+            <input type="number" name="egd" id="s-egd" required
+            min="0" max="100" placeholder="expected sem marks">
+        </p>
+        <p>
+            <label for="electrical-laboratory">Electrical-Laboratory:</label>
+            <input type="number" name="electrical-laboratory" id="i-electrical-laboratory" required
+            min="0" max="50" placeholder="internal marks">
+            <input type="number" name="electrical-laboratory" id="s-electrical-laboratory" required
+            min="0" max="100" placeholder="expected sem marks">
+        </p>
+        <p>
+            <label for="physics-laboratory">Physics-Laboratory:</label>
+            <input type="number" name="physics-laboratory" id="i-physics-laboratory" required
+            min="0" max="50" placeholder="internal marks">
+            <input type="number" name="physics-laboratory" id="s-physics-laboratory" required
+            min="0" max="100" placeholder="expected sem marks">
+        </p>
+        <p>
+            <label for="english">English:</label>
+            <input type="number" name="english" id="i-english" required
+            min="0" max="50" placeholder="internal marks">
+            <input type="number" name="english" id="s-english" required
+            min="0" max="100" placeholder="expected sem marks">
+        </p>
+        <p>
+            <label for="media-presentation">Media-Presentation:</label>
+            <input type="number" name="media-presentation" id="i-media-presentation" required
+            min="0" max="50" placeholder="internal marks">
+            <input type="number" name="media-presentation" id="s-media-presentation" required
+            min="0" max="100" placeholder="expected sem marks">
+        </p>
+        <p>
+            <button type="submit">Calculate</button>
+        </p>
+    </form>
     </div>
     <script src="index.js"></script>
   </body>
