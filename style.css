@@ -6,8 +6,18 @@ body{
     background:linear-gradient(90deg,#eacda3,#d6ae7b);
     font-family: 'Times New Roman', Times, serif;
 }
-form{
+#form{
     /* min-height:80vh; */
+    min-width:60vw;
+    width:80vw;
+    margin:2rem auto;
+    background:linear-gradient(90deg,#000428,#004e92);
+    opacity:1;
+    text-align: center;
+    padding:1rem;
+    border-radius:10px;
+}
+#output{
     min-width:60vw;
     width:60vw;
     margin:2rem auto;
@@ -17,23 +27,30 @@ form{
     padding:1rem;
     border-radius:10px;
 }
-label,h2{
+h1{
     color:white;
     display:block;
+    /* font-size: 1.25rem; */
+    padding:1rem;
+    margin:0.25rem;
+}
+label{
+    color:white;
+    /* display:block; */
     font-size: 1.25rem;
     padding-bottom:0.25rem;
     margin:0.25rem;
 }
 input{
     display:inline-block;
-    width:40%;
+    width:25%;
     background:whitesmoke;
-    padding:0.25rem;
+    padding:0.7rem;
     margin:0.25rem;
 }
 header{
     background:linear-gradient(90deg,#000428,#004e92);
-    border-radius:15px 15px 15px 15px;
+    /* border-radius:15px 15px 15px 15px; */
     color:white;
     text-align:center;
     padding:1rem;
@@ -42,44 +59,19 @@ header{
 }
 button{
     display:block;
-    width:80%;
+    width:30%;
     margin:1rem auto;
     padding:0.25rem;
     color:black;
     background:linear-gradient(90deg,#727a9a,#d8dbe9);
     border:2px solid white;
     font-size:1rem;
-    font-weight: 700;
+    font-weight: bold;
+    border-radius: 10px;
 }
-
-/* nav
-{
-    margin: 20px;
+#labelPad{
+    display: inline-block;
+    width: 30%;
     padding: 20px;
-    
-    background-color: papayawhip;
-    border: 3px solid black;
+    text-align: left;
 }
-h1{
-    text-align: center;
-}
-#form
-{
-    padding: 20px;
-    margin: 20px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-}
-#inputs
-{
-    padding: 25px;
-    width: 60%;
-    display: flex;
-    /* justify-content: center; */
-    /* flex-direction: column;
-    align-items: center;
-    background-color: greenyellow;
-
-}  */
