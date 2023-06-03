@@ -2,9 +2,12 @@
     margin: 0;
     padding: 0;
 }
+
 body{
+    /* width: 100vw; */
     background:black;
     font-family: 'Times New Roman', Times, serif;
+    
 }
 #form{
     /* min-height:80vh; */
@@ -31,12 +34,13 @@ body{
     min-width:60vw;
     width:100vw;
     padding: 1rem;
-    /* margin:2rem auto; */
+    margin:2rem auto;
     background:linear-gradient(90deg,#000428,#004e92);
     opacity:1;
     text-align: center;
     /* padding:1rem; */
     /* border-radius:10px; */
+    margin-bottom: 0;
 }
 h1{
     color:white;
@@ -67,6 +71,7 @@ header{
     padding:1rem;
     margin-bottom:1rem;
     position:sticky;
+    width: 100vw;
 }
 button{
     display:block;
@@ -105,6 +110,6 @@ button{
         width: 45%;
     }
     button{
-        width: 30%;
+        width: 45%;
     }
   }
