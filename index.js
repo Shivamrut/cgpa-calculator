@@ -110,10 +110,19 @@ const smediaPresentationVal = parseInt(smediaPresentation.value);
     console.log('clicked');
     var sum = 0;
     // console.log(parseInt(iphysicsLab.value));
-    sum += (oneCredit(iphysicsLabVal,sphysicsLabVal));
+    sum += oneCredit(iphysicsLabVal,sphysicsLabVal);
+    sum += oneCredit(ielectricalLabVal,selectricalLabVal);
+    sum += oneCredit(imediaPresentationVal,smediaPresentationVal);
     sum += twoCredit(ienglishVal,senglishVal);
+    sum += threeCredit(iphysicsVal,sphysicsVal);
+    sum += threeCredit(ielectricalScienceVal,selectricalScienceVal);
+    sum += threeCredit(imechanicsVal,smechanicsVal);
+    sum += threeCredit(iegdVal,segdVal);
     sum += threeCredit(imathsVal, smathsVal);
     console.log(sum);
+    document.getElementById('output').style.display = 'block';
+    const cgpa = document.getElementById('cgpa');
+    cgpa.innerHTML = `${sum/200}`;
 
 })
 
